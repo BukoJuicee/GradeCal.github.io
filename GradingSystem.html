@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Grade Calculator</title>
+    <!-- INPUT LINK IN YOUR CSS -->
+     <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!--BOX-->
+    <div class="container">
+    <div class="left-box">
+    <div id="box">
+        <h1>RESULT</h1>
+        <h2>Grade Calculator</h2>
+        <!-- INPUT GRADES FORM -->
+        <div class="subjects">
+        <form action="">
+            <input type="text" id="WEBSYSTEM" placeholder="WEBSYSTEM">
+             <input type="text" id="NETWORKING" placeholder="NETWORKING">
+              <input type="text" id="SIA" placeholder="SIA">
+               <input type="text" id="DSA" placeholder="DSA">
+              <input type="text" id="MATH" placeholder="MATH">
+             <input type="text" id="PROGRAMMING1" placeholder="PROGRAMMING1">
+            <input type="text" id="PROGRAMMING2" placeholder="PROGRAMMING2">
+        </form>
+    </div>
+        <!-- CALCULATION BUTTON JS -->
+        <div class="text">
+        <button class="calculateButton" type="button" onclick="calculateGrade()" >Calculate</button> 
+        <p>Total Grade is: <span id="avg"></span></p>
+         <p>Descriptor: <span id="descriptor"></span></p>
+          <p>Remarks: <span id="remarks"></span></p>
+        </div>     
+    </div>
+</div>
+</div>
+</body>
+</html> 
+<!-- JS LINKS -->
+<script src="Function.js"></script>
